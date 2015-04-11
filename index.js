@@ -9,7 +9,7 @@ globals.forEach(function(g) {
 // ensure availability of d3 and topojson in global namespace
 d3 = require("d3");
 topojson = require("topojson");
-require("d3-geo-projection")(d3);
+//require("d3-geo-projection")(d3);
 
 // load and export vega
 require("./vega");
